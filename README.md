@@ -10,7 +10,7 @@ When the guesser guess the right word that the painter chose, the role for the p
 
 I used:
 
-Node.js + express + React.js
+Node.js + express + React.js + Socket.IO
 
 To start the app you will need to this for both, client and server:
 1. npm install
