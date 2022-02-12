@@ -1,10 +1,10 @@
 # Draw-Guess-Full
 
-The Draw & Guess game is a real-time game for two players. The server chooses wich player will be the painter and the second plyaer will be the guesser.
+The Draw & Guess game is a real-time game for two players. The server chooses which player will be the painter and the second player will be the guesser.
 
 The painter chooses a word from the diffrent options and difficulty, then he will need to draw the best way to describe the word.
 
-In real-time the the guesser sees the drawing and the painter sees the guess that the gusser writes.
+In real-time the guesser sees the drawing and the painter sees the guess that the gusser writes.
 
 When the guesser guess the right word that the painter chose, the role for the player switch.
 
@@ -18,6 +18,7 @@ To start the app you will need to this for both, client and server:
 2. npm start
 
 3.The app is for the phone interface and touch. You can draw on the canvas only at "phone mode"
+(Inspect -> Enter the tablet/phone mode)
 
 Welcome page:
 
