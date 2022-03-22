@@ -1,6 +1,5 @@
 # Draw-Guess-Full
-# The app is for the phone interface and touch. You can draw on the canvas only at "phone mode"
-(Inspect -> Enter the tablet/phone mode)
+# The app is for the phone interface and touch. You can draw on the canvas only at "phone mode" (Inspect -> Enter the tablet/phone mode)
 
 The Draw & Guess game is a real-time game for two players. The server chooses which player will be the painter and the second player will be the guesser.
 
