@@ -13,7 +13,7 @@ I used:
 
 Node.js + express + React.js + Socket.IO
 
-To start the app you will need to this for both, client and server:
+To start the app you will need client and server, first of all run the server and than the client
 1. npm install
 
 2. npm start
