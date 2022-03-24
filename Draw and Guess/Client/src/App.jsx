@@ -14,8 +14,8 @@ function App() {
 const mainPage={
   backgroundColor: '#87CEFA',
   width: '100%',
-  height: '100%',
-  top:'50%',
+  height: '70%',
+  
   textAlign: 'center',
 }
 

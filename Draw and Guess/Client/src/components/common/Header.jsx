@@ -19,7 +19,6 @@ const logosStyle={
   paddingBottom:'1%'
 
 }
-
 const title={
   fontSize: '6vw',
   marginBottom:'0px'

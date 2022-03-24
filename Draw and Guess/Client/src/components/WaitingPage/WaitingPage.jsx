@@ -1,8 +1,8 @@
 import React from 'react';
 import LoadingSupra from '../../assets/videos/LoadingSupra.mp4';
 import {useNavigate} from 'react-router-dom';
-import io from 'socket.io-client';
 import { useEffect, useState } from 'react';
+import io from 'socket.io-client';
 
 export default function WaitingPage() { 
   const [role, setRole] = useState("");

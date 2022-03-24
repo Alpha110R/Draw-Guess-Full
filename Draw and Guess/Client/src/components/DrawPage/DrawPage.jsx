@@ -1,13 +1,10 @@
 import React from 'react';
-import {useLocation, useNavigate} from 'react-router-dom';
 import '../common/Button.css';
+import {useLocation, useNavigate} from 'react-router-dom';
 import { Canvas } from '../Canvas/Canvas';
-import io from 'socket.io-client';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { TextField } from "@material-ui/core";
-
-
+import io from 'socket.io-client';
 
 export default function DrawPage() {
   const [guesserWord, setGuesserWord] = useState("");
@@ -22,23 +19,23 @@ export default function DrawPage() {
   useEffect(()=>{
     const socket = io("http://localhost:4000");
     setSocket(socket);
+
     socket.on('message', message=>{
       setGuesserWord(message);
     });
+    
     socket.on('victory', () =>{
         setVictory(1);
     });
+
     socket.on('end_session', end =>{
       setEndGame(end);
     });
 
     socket.emit('send_wordToGuess', wordToDraw);
-    
-    
   },[])
 
   useEffect(()=>{
-    console.log("drawer send image:",imageCanvas);
     sendImageCanvasURL();
   },[imageCanvas])
 

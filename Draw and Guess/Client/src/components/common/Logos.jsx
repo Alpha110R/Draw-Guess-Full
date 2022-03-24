@@ -17,6 +17,7 @@ const Logos =({logoName})=>{
     
 }
 export default Logos;
+
 const titleLogosStyle={
     width: '10%',
 }

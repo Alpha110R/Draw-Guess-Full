@@ -1,8 +1,8 @@
 import React from 'react';
-import randomWords from 'random-words';
 import '../common/Button.css';
+import randomWords from 'random-words';
 import { useState } from "react";
-import {useNavigate, useLocation } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const generateWords=(difficulty)=>{
   switch(difficulty){
@@ -48,6 +48,7 @@ export default function WordChoosingPage() {
       
   );
 }
+
 const subTitleChooseWord={
   fontSize: '4vw',
   marginBottom:'0px'
