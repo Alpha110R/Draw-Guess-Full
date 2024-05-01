@@ -42,6 +42,8 @@ Easy word - 1 point, Medium word - 3 points, Hard word - 5 points
 
 DB for saving the sessions and show the best session score in welcome screen. (The best session score is the highest score for minimum time played)
 
+https://github.com/Alpha110R/Draw-Guess-Full/assets/68230416/54cd6a7f-2d5e-46e6-af0b-2b2d5b214c94
+
 Welcome page:
 
 ![image](https://user-images.githubusercontent.com/68230416/153002793-74d4a3e0-a0bc-4df3-98a2-34dd14f29c77.png)
