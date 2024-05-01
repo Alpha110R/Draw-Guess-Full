@@ -21,6 +21,27 @@ To start the app you will need client and server, first of all run the server an
 3.The app is for the phone interface. You can draw on the canvas only at "phone mode"
 (Inspect -> Enter the tablet/phone mode)
 
+‘Draw & Guess’ game for 2 players.
+
+The game includes 5 views:
+Welcome view
+Word choosing view
+Drawing view
+Guessing view
+Waiting view
+
+The first player starts the game by choosing between 3 given words, words vocabulary is provided below (easy, medium, hard), then he will try to draw the word’s meaning,
+When drawing, the second player will see the drawing and will try to guess the word. Once succeed, he will get to pick a new word, draw it, and so on.
+
+Rules:
+
+The first player who starts the game will have to wait for the second player to join (refresh at both tabs for starting a new game).
+Players can guess as many times they want.
+When guessing right, the game session will earn points:
+Easy word - 1 point, Medium word - 3 points, Hard word - 5 points
+
+DB for saving the sessions and show the best session score in welcome screen. (The best session score is the highest score for minimum time played)
+
 Welcome page:
 
 ![image](https://user-images.githubusercontent.com/68230416/153002793-74d4a3e0-a0bc-4df3-98a2-34dd14f29c77.png)
